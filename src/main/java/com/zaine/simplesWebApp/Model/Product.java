@@ -18,4 +18,13 @@ public class Product {
         this.proName = proName;
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "proId=" + proId +
+                ", proName='" + proName + '\'' +
+                ", price=" + price +
+                '}';
+    }
 }
